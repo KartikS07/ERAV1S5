@@ -1,5 +1,5 @@
 class Net(nn.Module):
-    #This defines the structure of the NN.
+    #This defines the structure of the Neural Net.
     def __init__(self):
         super(Net, self).__init__()
         self.conv1 = nn.Conv2d(1, 32, kernel_size=3)
